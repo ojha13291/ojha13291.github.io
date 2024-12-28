@@ -1,11 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Kumar - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar {
+      background: #1e1e1e;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px;
+    }
+    .navbar a:hover {
+      color: #1e90ff;
+    }
+    .header {
+      text-align: center;
+      padding: 120px 20px;
+      background: #1e1e1e;
+    }
+    .header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .header p {
+      font-size: 1.2rem;
+      color: #888;
+    }
+    .section-title {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #1e90ff;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: #2a2a2a;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #fff;
+    }
+    .card-subtitle {
+      font-size: 1.1rem;
+      color: #bbb;
+    }
+    .card-text {
+      font-size: 1rem;
+      color: #ddd;
+    }
+    .list-group-item {
+      background: #2a2a2a;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    .list-group-item:hover {
+      background: #1e90ff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background: #1e1e1e;
+      color: #fff;
+      margin-top: 30px;
+    }
+    footer a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>This is My Portfolio</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ayush Kumar</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <h1>Ayush Kumar</h1>
+      <p>Cybersecurity Enthusiast | Python Developer | Web Developer</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I am a first-year B.E. student at Sir MVIT College, Bangalore, passionate about Cybersecurity, Python Development, and Full Stack Web Development. I'm eager to gain practical experience and contribute to projects that challenge my skills. My goal is to learn and grow in the field of technology.
+    </p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="container">
+    <h2 class="section-title">Experience</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Cybersecurity Intern</h5>
+            <h6 class="card-subtitle mb-2 text-muted">SkillCraft Technology</h6>
+            <p class="card-text">Working on hands-on cybersecurity tasks and tools for enhancing security protocols.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Python Developer Intern</h5>
+            <h6 class="card-subtitle mb-2 text-muted">TechOctaNet</h6>
+            <p class="card-text">Developing Python-based solutions and enhancing coding skills for real-world applications.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hackathon Team Leader</h5>
+            <h6 class="card-subtitle mb-2 text-muted">CodeRed Hackathon</h6>
+            <p class="card-text">Leading a team to develop an AI-powered web app for generating MCQs from PDFs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="container">
+    <h2 class="section-title">Skills</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Cybersecurity Fundamentals</li>
+      <li class="list-group-item">Python Development</li>
+      <li class="list-group-item">Full Stack Web Development</li>
+      <li class="list-group-item">Linux Fundamentals</li>
+    </ul>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="container">
+    <h2 class="section-title">Certifications</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Tata Cybersecurity Analyst Job Simulation</li>
+      <li class="list-group-item">Google Cybersecurity Foundations (Coursera)</li>
+      <li class="list-group-item">Full Stack Web Development (Udemy)</li>
+    </ul>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section class="container">
+    <h2 class="section-title">Hobbies</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Playing Badminton</li>
+      <li class="list-group-item">Playing Chess</li>
+      <li class="list-group-item">Cycling</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Contact</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Email: <a href="mailto:ojha13291@gmail.com" class="text-primary">ojha13291@gmail.com</a></li>
+      <li class="list-group-item">Phone: <span class="text-primary">+919631593615</span></li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Ayush Kumar | 
+      <a href="https://github.com/ojha13291" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/ayush-kumar-2281aa205" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
