@@ -22,6 +22,7 @@ I am a first-year B.E. student at Sir MVIT College, Bangalore, with a strong pas
 - **Cybersecurity Intern** at SkillCraft Technology
 - **Python Developer Intern** at TechOctaNet
 - **Hackathon Team Leader** at CodeRed Hackathon
+- **Freelancer** at Accenture.inc
 
 ## Skills
 
